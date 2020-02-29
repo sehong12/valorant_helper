@@ -1,0 +1,9 @@
+{
+  "@@last_modified": "2020-02-29T15:11:34.431478",
+  "appTitle": "WOLCEN 가이드",
+  "@appTitle": {
+    "description": "Title for the application",
+    "type": "text",
+    "placeholders": {}
+  }
+}

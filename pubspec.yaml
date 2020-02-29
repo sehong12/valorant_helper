@@ -1,5 +1,5 @@
 name: wolcen_guide
-description: A new Flutter project.
+description: Game Guide App For Wolcen
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -19,7 +19,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.16.0
+  firebase_admob: ^0.9.1+1
+  
+  # For design
+  font_awesome_flutter: ^8.7.0
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
@@ -27,7 +33,17 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  intl_translation: ^0.17.9
+  flutter_launcher_icons: ^0.7.4
 
+# 앱 런처 아이콘 설정부
+# flutter_icons:
+#   ios: true
+#   android: true
+#   image_path_ios: "assets/launcher_icons/li_cat_normal.png"
+#   image_path_android: "assets/launcher_icons/li_cat_normal.png"
+#   adaptive_icon_background: "assets/launcher_icons/li_cat_background.png"
+#   adaptive_icon_foreground: "assets/launcher_icons/li_cat_foreground.png"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

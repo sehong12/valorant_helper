@@ -15,31 +15,29 @@ flutter upgrade
 flutter version [VERSION]
 ```
 
-## Git 셋팅
-```bash
-git 
-```
-
 ## Developer's manual
 ### 국제화 (i18n)
 #### Extracting Messages
 ```bash
 # 초기 셋팅 시 활용
-flutter pub run intl_translation:extract_to_arb --output-dir=lib/l10n lib/localization.dart
+flutter pub run intl_translation:extract_to_arb --output-dir=lib/l10n lib/l10n/localization.dart
 
-flutter pub run intl_translation:generate_from_arb --output-dir=lib/l10n --no-use-deferred-loading lib/localization.dart lib/l10n/intl_messages.arb
+flutter pub run intl_translation:generate_from_arb --output-dir=lib/l10n --no-use-deferred-loading lib/l10n/localization.dart lib/l10n/intl_messages.arb
 
 # 본격 활용
 ## 코드 => ARB
-flutter pub run intl_translation:extract_to_arb --output-dir=lib/l10n lib/localization.dart
+flutter pub run intl_translation:extract_to_arb --output-dir=lib/l10n lib/l10n/localization.dart
 
 ## ARB => 코드
-flutter pub run intl_translation:generate_from_arb --output-dir=lib/l10n --no-use-deferred-loading lib/localization.dart lib/l10n/intl_en.arb lib/l10n/intl_ko.arb
+flutter pub run intl_translation:generate_from_arb --output-dir=lib/l10n --no-use-deferred-loading lib/l10n/localization.dart lib/l10n/intl_en.arb lib/l10n/intl_ko.arb
 ```
 
 ### Admob 광고
 https://pub.dev/packages/firebase_admob 참조하여 AndroidManifest.xml 및 Info.plist 파일에 앱ID를 입력하여야 함
+
 #### Android
+ca-app-pub-5924040435579261~4220470288
+ca-app-pub-5924040435579261/5190238341
 pubspec.yaml 파일에 firebase_admob 디펜던시 추가 시 반드시 아래의 설정을 넣어야 함
 추가하지 않을 경우 앱이 정상적으로 동작하지 않음 
 ```xml
