@@ -1,4 +1,4 @@
-package com.example.wolcen_guide
+package com.example.valorant_helper
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity

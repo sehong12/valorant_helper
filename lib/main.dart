@@ -3,17 +3,17 @@ import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:firebase_admob/firebase_admob.dart';
 
-import 'package:wolcen_guide/screens/app_home.dart';
-import 'package:wolcen_guide/utils/route_generator.dart';
-import 'package:wolcen_guide/styles/main_theme.dart';
-import 'package:wolcen_guide/l10n/localization.dart';
+import 'package:valorant_helper/screens/app_home.dart';
+import 'package:valorant_helper/utils/route_generator.dart';
+import 'package:valorant_helper/styles/main_theme.dart';
+import 'package:valorant_helper/l10n/localization.dart';
 
 
 void main() {
   runApp(MainApp());
 
   //Admob 광고 코드 설정부
-  const String admobAppId = "ca-app-pub-5924040435579261~4220470288"; //애드몹 앱ID 입력
+  const String admobAppId = "ca-app-pub-5924040435579261~8512579257"; //TODO 애드몹 앱ID 변경
   FirebaseAdMob.instance.initialize(appId: admobAppId);
 }
 
@@ -58,7 +58,7 @@ class MainApp extends StatelessWidget {
       // https://developers.google.com/admob/android/test-ads
       // https://developers.google.com/admob/ios/test-ads
       adUnitId:
-        "ca-app-pub-5924040435579261/5190238341", // Admob 광고단위ID 입력 (for test) BannerAd.testAdUnitId  
+        "ca-app-pub-5924040435579261/7007925893", //TODO Admob 광고단위ID 입력 (for test) BannerAd.testAdUnitId  
       size: AdSize.smartBanner,
       // targetingInfo: targetingInfo,
       listener: (MobileAdEvent event) {

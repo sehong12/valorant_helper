@@ -11,7 +11,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>wolcen_guide</string>
+	<string>valorant_helper</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -42,6 +42,6 @@
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
 	<key>GADApplicationIdentifier</key>
-	<string>ca-app-pub-5924040435579261~4220470288</string>
+	<string>ca-app-pub-5924040435579261~8512579257</string>
 </dict>
 </plist>

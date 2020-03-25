@@ -1,6 +1,13 @@
-# wolcen_guide
+# valorant_helper
 
-울센 가이드 앱
+발로란트 헬퍼 앱
+
+## 템플릿 사용 방법
+1. Git Clone 을 통해 리파지토리 클론
+1. pubspec.yaml의 프로젝트 name 확인 후 검색에서 전체 변경
+1. Admob 앱 생성 및 광고단위 생성
+1. Admob ID 및 광고단위 ID 변경 (검색으로 변경)
+
 
 ## Flutter 기초 사용 방법
 ### 프로젝트 생성
@@ -36,8 +43,9 @@ flutter pub run intl_translation:generate_from_arb --output-dir=lib/l10n --no-us
 https://pub.dev/packages/firebase_admob 참조하여 AndroidManifest.xml 및 Info.plist 파일에 앱ID를 입력하여야 함
 
 #### Android
-ca-app-pub-5924040435579261~4220470288
-ca-app-pub-5924040435579261/5190238341
+앱ID : ca-app-pub-5924040435579261~8512579257
+광고단위ID : ca-app-pub-5924040435579261/7007925893
+
 pubspec.yaml 파일에 firebase_admob 디펜던시 추가 시 반드시 아래의 설정을 넣어야 함
 추가하지 않을 경우 앱이 정상적으로 동작하지 않음 
 ```xml

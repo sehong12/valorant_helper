@@ -1,5 +1,5 @@
-name: wolcen_guide
-description: Game Guide App For Wolcen
+name: valorant_helper
+description: Helper App For Valorant
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -22,7 +22,7 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   intl: ^0.16.0
-  firebase_admob: ^0.9.1+1
+  firebase_admob: ^0.9.3
   
   # For design
   font_awesome_flutter: ^8.7.0

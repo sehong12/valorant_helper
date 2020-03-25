@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:wolcen_guide/l10n/messages_all.dart';
+import 'package:valorant_helper/l10n/messages_all.dart';
 
 class AppLocalizations {
   AppLocalizations(this.localeName);
