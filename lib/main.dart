@@ -92,7 +92,7 @@ class MainApp extends StatelessWidget {
       checkerboardOffscreenLayers: false,
       debugShowCheckedModeBanner: false,
       // 디버깅 끝
-      title: 'Cat Care Note',
+      title: 'Valorant Helper',
       // theme: ThemeData.dark(),
       theme: CustomTheme.mainTheme,
       localizationsDelegates: [
